@@ -11,8 +11,13 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
+
+.container {
+  width: 1200px;
+}
 .list {
   list-style: none;
+  display: flex;
 }
 
 .link {
@@ -70,6 +75,7 @@ body {
 
 .hero {
   background-color: #2f303a;
+  height: 600px;
 }
 
 .hero-title {
@@ -80,6 +86,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  box-sizing: border-box;
+  margin: 200px 452px 280px;
+  width: 696px;
+  height: 120px;
 }
 
 .hero-btn {
@@ -95,6 +105,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  box-sizing: border-box;
+  margin: 350px 700px 200px 700px;
+  padding: 10px 25px;
+  width: 200px;
+  height: 50px;
 }
 
 .hero-btn:hover,
@@ -108,6 +123,9 @@ body {
   display: none;
 }
 
+.feauters {
+  box-sizing: border-box;
+}
 .feauters-item-title {
   font-weight: 700;
   font-size: 14px;
