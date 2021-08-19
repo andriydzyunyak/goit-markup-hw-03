@@ -393,11 +393,13 @@ ul {
 
 .project-item {
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .project-item-content {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-bottom: 1px #eeeeee solid;
+  border-left: 1px #eeeeee solid;
+  border-right: 1px #eeeeee solid;
 }
 
 .project-item-title {
